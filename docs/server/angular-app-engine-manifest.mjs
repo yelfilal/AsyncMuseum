@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/AsyncMuseum',
+  basePath: '/async-museum',
   supportedLocales: {
   "en-US": ""
 },

@@ -2,7 +2,7 @@
 export default {
   bootstrap: () => import('./main.server.mjs').then(m => m.default),
   inlineCriticalCss: true,
-  baseHref: '/AsyncMuseum',
+  baseHref: '/async-museum',
   locale: undefined,
   routes: undefined,
   entryPointToBrowserMapping: {
@@ -26,8 +26,8 @@ export default {
   ]
 },
   assets: {
-    'index.csr.html': {size: 23729, hash: '5535a511dabe13cb93d587c49ad3bfab3b081577f60ce96bc9f6dc8a0fea9078', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 17303, hash: 'd8d2e6d847374747d6ada3ec9bddcfd79f7d59181d829280931e642187fcae14', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 23730, hash: 'ebab80e4ef8c49e7362d8bd3b6813938a16573f83492ca95ddee7067cd4fdd27', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 17304, hash: 'ba21fc55b115de466dcaa25ff74a8a3266cd9cd9dd7fc75e0a93793d12da5461', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
     'styles-36AW6TKX.css': {size: 6979, hash: 'vY6tjD/ce7M', text: () => import('./assets-chunks/styles-36AW6TKX_css.mjs').then(m => m.default)}
   },
 };
