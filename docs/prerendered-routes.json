@@ -1,8 +1,0 @@
-{
-  "routes": {
-    "/AsyncMuseum": {},
-    "/AsyncMuseum/contact": {},
-    "/AsyncMuseum/expos": {},
-    "/AsyncMuseum/virtual-tour": {}
-  }
-}
