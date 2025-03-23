@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/async-museum',
+  basePath: 'https://yelfilal.github.io/AsyncMuseum',
   supportedLocales: {
   "en-US": ""
 },

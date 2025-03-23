@@ -2,7 +2,7 @@
 export default {
   bootstrap: () => import('./main.server.mjs').then(m => m.default),
   inlineCriticalCss: true,
-  baseHref: '/async-museum',
+  baseHref: 'https://yelfilal.github.io/AsyncMuseum/',
   locale: undefined,
   routes: undefined,
   entryPointToBrowserMapping: {
@@ -26,8 +26,8 @@ export default {
   ]
 },
   assets: {
-    'index.csr.html': {size: 23730, hash: 'ebab80e4ef8c49e7362d8bd3b6813938a16573f83492ca95ddee7067cd4fdd27', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 17304, hash: 'ba21fc55b115de466dcaa25ff74a8a3266cd9cd9dd7fc75e0a93793d12da5461', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 23756, hash: '0fe5289ee8b4869cce9eb6908b6ee38042f6b4b95604dd5243bccfa620acf33a', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 17330, hash: '13d4e19737e41db015783c54f8b455ea72ca939229acbda1fe25ba4502b65c0a', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
     'styles-36AW6TKX.css': {size: 6979, hash: 'vY6tjD/ce7M', text: () => import('./assets-chunks/styles-36AW6TKX_css.mjs').then(m => m.default)}
   },
 };
