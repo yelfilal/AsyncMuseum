@@ -1,0 +1,13 @@
+<div class="container">
+    <h2>Nos Expositions</h2>
+    <div class="grid">
+      <div *ngFor="let expo of expositions" class="card">
+        <img [src]="expo.image" [alt]="expo.title" />
+        <h3>{{ expo.title }}</h3>
+        <p>{{ expo.description }}</p>
+        <small>Date : {{ expo.year }}</small><br>
+        <b><small>Artist : {{ expo.artist }}</small></b>
+      </div>
+    </div>
+  </div>
+  
